@@ -52,11 +52,11 @@ Once you had ran those commands your Openshift is ready to receive your ELK Depl
 
 Inside the [elk_stack_plus.yml](/elk_stack_plus.yml) you will find all instructions for Openshift do the installation / configuration of Elastic components bellow:
 
-- ElasticSearch (Cluster - 3 nodes)
-- Kibana ( port export need be done separate)
-- Logstash
-- MetricBeat (Inside kube-system Namespace)
-- Filebeat
+- [ElasticSearch](#elasticsearch) (Cluster - 3 nodes)
+- [Kibana](#kibana) ( port export need be done separate)
+- [Logstash](#logstash)
+- [Filebeat](#filebeat)
+- [MetricBeat](#metricbeat) (Inside kube-system Namespace)
 
 Running kubectl command in your Linux will create the entire ELK Stack in your Openshift
 
