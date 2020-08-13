@@ -724,7 +724,7 @@ spec:
               fieldPath: spec.nodeName
         securityContext:
           runAsUser: 0
-		 privileged: true #For Openshift 
+          privileged: true #For Openshift 
         resources:
           limits:
             memory: 200Mi
